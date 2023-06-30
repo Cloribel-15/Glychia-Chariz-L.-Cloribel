@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>😢</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      background-color: #F8E8EE;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+<img src="R.jpg">
+  <script>
+            var colors = ["#F2BED1", "#FDCEDF", "#F8E8EE", "#F9F5F6"];
+    var currentIndex = 0;
+    function changeBackgroundColor() {
+      var body = document.querySelector("body");
+      body.style.backgroundColor = colors[currentIndex];
+      currentIndex = (currentIndex + 1) % colors.length;
+    }
+  </script>
+</body>
+</html>
